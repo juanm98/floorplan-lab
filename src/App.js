@@ -1,11 +1,12 @@
 import './App.css';
-
+import Kitchen from './Kitchen';
 // CodeSandbox.js
 
 function FloorPlan(props) {
   return (
     <div>
-      <h1>FloorPlan</h1>
+      <div>Bedroom 1</div>
+      <Kitchen/>
     </div>
   );
 }
