@@ -1,5 +1,6 @@
 import './App.css';
 import Kitchen from './Kitchen';
+import LivingRoom from './LivingRoom';
 // CodeSandbox.js
 
 function FloorPlan(props) {
@@ -7,6 +8,7 @@ function FloorPlan(props) {
     <div>
       <div>Bedroom 1</div>
       <Kitchen/>
+      <LivingRoom/>
     </div>
   );
 }
